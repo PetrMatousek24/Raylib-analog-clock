@@ -18,7 +18,7 @@ int main()
     AnalogClock clock {150, {200, 200}};
 
 
-    //Main Loop
+    // Main loop
     while(WindowShouldClose() == false)
     {
         // Core Game loop
@@ -32,6 +32,7 @@ int main()
     }
 
 
+    // End Game 
     CloseWindow();
     return 0;
 }

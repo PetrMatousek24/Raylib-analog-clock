@@ -1,25 +1,7 @@
-# This is a guide on how to use this starter raylib template
+# Raylib Analog Clock
 
-Normally put all your code into main.cpp
-Start your code with **F5**
+This is an attempt to make an analog clock in raylib as a learning project.
 
-# Modifications
+I used this tutorial: [https://www.youtube.com/watch?v=E_hg96tixLM&list=PLwR6ZGPvjVOTIMqUXnqyWaIfQg0xdHNZn&index=7](https://www.youtube.com/watch?v=E_hg96tixLM&list=PLwR6ZGPvjVOTIMqUXnqyWaIfQg0xdHNZn&index=7)
 
-## /src 
-
-If you want to put your code into a src folder, navigate to .vscode and to tasks
-Change every:
-
-`"OBJS=${fileBasenameNoExtension}.cpp"` 
-
-to 
-
-`"OBJS=src/${fileBasenameNoExtension}.cpp"`
-
-## C++ --> C
-
-Open the Makefile file, and find `CC = g++` 
-
-Change it to: `CC = gcc
-
-*and maybe more but I am not sure right now.*`
+Super helpful tutorial in my opinion.
